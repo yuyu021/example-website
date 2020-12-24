@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Diary</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav>
+        <!-- <img src="wolf.jpg" alt=""> -->
+        <div class="title">Fashion Diary</div>
+        <div class="menu">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Blog</div>
+            <div class="item">Contact</div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Blog</div>
+            <div class="item">Contact</div>
+            <div onclick="closemobilemenu();"class="close">X</div>
+        </div>
+        <div onclick="showMobileMenu();" class="mobile-menu-trigger">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="memo">STYLE IS A<br>CHOICE.<br>MAKE YOURS.</div>
+    </nav>
+    <section class="gallery">
+        <div class="col">
+            <div class="block pic pic1">
+                <div class="words">
+                    <div class="title">Read</div>
+                    <div class="story">THE BLOG</div>
+                    <div class="action">
+                        <span class="btn">Read More</span> 
+                    </div>
+                </div>
+            </div>
+            <div class=" block text">
+                <div class="words">
+                    <div class="title">Hello</div>
+                    <div class="story">I'm YUYU</div>
+                    <div class="action">
+                        <span class="btn">Read More</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class=" block text">
+                <div class="words">
+                    <div class="title">Advertise with</div>
+                    <div class="story">Fashion diva</div>
+                    <div class="action">
+                        <span class="btn">Read More</span> 
+                    </div>
+                </div>
+            </div>
+            <div class="block pic pic2">
+                <div class="words">
+                    <div class="title">Contribute</div>
+                    <div class="story">To THE BLOG</div>
+                    <div class="action">
+                        <span class="btn">Read More</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create">
+        <div class="rol">
+            <div  class="rolpic pic3">
+            </div>
+            <div class="text3">
+                <div class="roltitle">What I Wore: Travel Edition...</div>
+                <div class="rolstory">
+                    Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Wel...
+                </div>
+                <div class="divider"></div>
+                <div class="message">85 views
+                    <span>Write a comment</span>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section class="create">
+    <div class="rol">
+        <div class="rolpic pic4"></div>
+        <div class="text4">
+            <div class="roltitle">Picking the Perfect Booties </div>
+                <div class="rolstory">
+                    Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Wel...
+                </div>
+                <div class="divider"></div>
+                <div class="message">85 views
+                    <span>Write a comment</span>
+                </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+            &copy; 2020 by YUYU.
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

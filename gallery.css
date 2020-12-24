@@ -1,0 +1,85 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.col{
+    width: 450px;
+    margin: 20px;
+    /* background-color: red; */
+}
+.pic{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+    /* background-image: url(maple.jpg);
+    background-size: cover; */
+    /* margin-bottom: 20px; */
+ 
+}
+.pic1{
+    background-image: url(flower.jpg);
+    background-size: cover;
+}
+.pic2{
+    background-image: url(maple.jpg);
+    background-size: cover;
+}
+.text{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: black;
+    border: 4px solid black;
+    box-sizing: border-box;
+    line-height: 0.9em;
+}
+.block{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.words{
+    width: 100%;
+    
+}
+section.gallery .col .block .words .title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.story{
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.btn{
+    font-size: 0.8em;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    opacity: .3; 
+    padding: 10px 20px;
+    transition: background-color .5s;
+}
+.btn:hover{
+    background-color: red;
+    cursor: pointer ;
+}
+/* 螢幕尺寸小於800像素，套用以下設定 */
+@media (max-width: 800px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .col:last-child{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

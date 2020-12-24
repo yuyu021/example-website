@@ -1,0 +1,107 @@
+.create{
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+}
+.rol{
+    width: 950px;
+    margin: 25px ;
+    display: flex;
+    justify-content: center;
+    border:1px solid rgb(146, 143, 143);
+    /* background-color: brown; */
+}
+section.create .rol .rolpic{
+    width: 100%;
+    transition: opacity 0.5S;
+}
+.pic3{
+    background-image: url(pine.jpg);
+    background-size: cover;
+}
+.pic4{
+    background-image: url(pine1.jpg);
+    background-size: cover;
+}
+.pic3, .pic4{
+    opacity: .5;
+}
+.pic3:hover,.pic4:hover{
+    opacity: 1;
+}
+.text3{
+    width: 100%;
+    /* padding: 25px; */
+}
+.roltitle{
+    font-size: 1.5em;
+    margin: 20px 60px 20px 30px;
+}
+.rolstory{
+    font-size: .7em;
+    margin:0 30px;
+    line-height: 20px;
+    color: rgb(146, 143, 143);
+}
+.divider{
+    height: 2px;
+    background-color: rgb(146, 143, 143);
+    flex-grow: 5;
+    margin: 50px 30px 20px 30px;
+    opacity: 0.5;
+}
+.message{
+    margin:0px 30px 20px 30px;
+    font-size: .5em;
+    color: rgb(146, 143, 143);
+
+}
+span{
+    margin:0 20px ;
+}
+.text4{
+    width: 100%;
+}
+.container{
+   font-size: 0.5em;
+   padding: 40px 0; 
+   margin-top: 25px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+@media(max-width:800px){
+    .rol{
+        width: 90%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        border:1px solid rgb(146, 143, 143);
+    }
+    section.create .rol .rolpic{
+        width: 100%;
+        height: 250px;
+    }
+    .roltitle{
+        font-size: 1em;
+        margin: 20px 30px;
+    }
+    .rolstory{
+        font-size: .5em;
+        line-height: 20px;
+        color: rgb(146, 143, 143);
+    }
+    .divider{
+        margin: 50px 30px 20px 30px;
+    }
+    .pic3,.pic4{
+        background-position:-5% center;
+    }
+    .container{
+        font-size: 0.2em;
+        padding: 15px 0; 
+        margin-top: 20px;
+     }
+
+
+}
